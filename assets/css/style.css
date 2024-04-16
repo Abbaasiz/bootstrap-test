@@ -1,5 +1,5 @@
 body {
-    background-color: ;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container-wrapper {}
@@ -22,7 +22,14 @@ body {
     border-color: #eec802;
 }
 
-.callout-container {}
+.callout-container {
+    height: 100vh;
+    background: url('/assets/images/refreshing-mojito-cocktails-with-lime-slices-generative-ai.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .quotes-container {}
 
